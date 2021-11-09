@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 # read from video
-vid = cv.VideoCapture('./resourses/video.MOV')
+vid = cv.VideoCapture('./resourses/video.MOV') #Here should go ur video name or if u gonna use ur cam, set to 0
 
 # check if video is open
 if (vid.isOpened() == False):
